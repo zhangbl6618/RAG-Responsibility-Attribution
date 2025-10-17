@@ -1,7 +1,7 @@
 import json
 import os
 import numpy as np
-from OpenAI_API import OpenaiGenerator
+from OpenAI_API import OpenAIGenerator
 import argparse
 
 
@@ -64,7 +64,10 @@ def query_poison(generator, question, answer, corpus, s):
 
 
 def evaluate(args):
-    generator = OpenaiGenerator(args.trace_LLM)
+    config = generate_config(
+        model_name=args.trace_LLM
+    )
+    generator = OpenAIGenerator(config)
     
 
     file_path = f"{args.feedback_root_dir}/{args.dataset}/{args.attack_method}/k{args.top_K}_m{args.attack_M}_{args.attack_retriever}_{args.attack_LLM}.json"
