@@ -57,23 +57,17 @@ python RAGOrigin/main.py \
 
 
 ```bash
-python RAGOrigin/main.py \
+python RAGForensics/main.py \
     --dataset "NQ" \
     --attack_retriever "e5" \
     --attack_LLM "gpt-4o-mini" \
-    --judge_LLM "gpt-4o-mini" \
+    --trace_LLM "gpt-4o-mini"
     --attack_method "PRAGB" \
     --attack_M 5 \
     --top_K 5 \
-    --trace_method "RAGOrigin" \
-    --proxy_model "meta-llama/Llama-3.1-8B" \
-    --variant 0 \
-    --normalize_method "z_score_normalize" \
     --feedback_root_dir "attack_feedback" \
-    --feedback_scope_dir "attack_feedback_scope" \
     --result_root_dir "result" \
     --test_version "v1" \
-    --cuda_device 0
 ```
 
 ## Citation
