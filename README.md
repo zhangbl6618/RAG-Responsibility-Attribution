@@ -1,4 +1,4 @@
-# Who Taught the Lie? Responsibility Attribution for Poisoned Knowledge in Retrieval-Augmented Generation
+# Responsibility Attribution for Poisoned Knowledge in Retrieval-Augmented Generation
 
 ## Introduction
 
