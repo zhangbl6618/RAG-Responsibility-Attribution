@@ -85,7 +85,7 @@ year={2026}
 @inproceedings{zhang2025traceback,
   title={Traceback of Poisoning Attacks to Retrieval-Augmented Generation},
   author={Zhang, Baolei and Xin, Haoran and Fang, Minghong and Liu, Zhuqing and Yi, Biao and Li, Tong and Liu, Zheli},
-  booktitle={The Web Conference 2025},
+  booktitle={The Web Conference},
   year={2025}
 }
 ```
