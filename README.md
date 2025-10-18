@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This repository is the official Implementation of `Who Taught the Lie? Responsibility Attribution for Poisoned Knowledge in Retrieval-Augmented Generation (RAGOrigin, IEEE S&P 2026)` and `Traceback of Poisoning Attacks to Retrieval-Augmented Generation (RAGForensics, WWW 2025)`.
+This repository is the official implementation of the papers `Who Taught the Lie? Responsibility Attribution for Poisoned Knowledge in Retrieval-Augmented Generation` (IEEE Symposium on Security and Privacy 2026) and `Traceback of Poisoning Attacks to Retrieval-Augmented Generation` (The Web Conference 2025).
 
 ## Setup
 
@@ -10,7 +10,7 @@ This repository is the official Implementation of `Who Taught the Lie? Responsib
 
 ```bash
 conda env create my_custom_env python=3.12
-conda activate my_custom_env 
+conda activate my_custom_env
 pip install -r requirements.txt
 ```
 
@@ -83,10 +83,9 @@ year={2026}
 }
 
 @inproceedings{zhang2025traceback,
-  title={Traceback of poisoning attacks to retrieval-augmented generation},
+  title={Traceback of Poisoning Attacks to Retrieval-Augmented Generation},
   author={Zhang, Baolei and Xin, Haoran and Fang, Minghong and Liu, Zhuqing and Yi, Biao and Li, Tong and Liu, Zheli},
-  booktitle={Proceedings of the ACM on Web Conference 2025},
-  pages={2085--2097},
+  booktitle={The Web Conference 2025},
   year={2025}
 }
 ```
