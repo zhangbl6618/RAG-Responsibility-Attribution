@@ -1,3 +1,5 @@
+
+
 # Responsibility Attribution for Poisoned Knowledge in Retrieval-Augmented Generation
 
 ## Introduction
@@ -61,7 +63,7 @@ python RAGForensics/main.py \
     --dataset "NQ" \
     --attack_retriever "e5" \
     --attack_LLM "gpt-4o-mini" \
-    --trace_LLM "gpt-4o-mini"
+    --trace_LLM "gpt-4o-mini" \
     --attack_method "PRAGB" \
     --attack_M 5 \
     --top_K 5 \
@@ -89,4 +91,3 @@ year={2026}
   year={2025}
 }
 ```
-
